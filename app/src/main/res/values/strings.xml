@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Reciclemos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_forest">ForestActivity</string>
+    <string name="title_activity_house">HouseActivity</string>
+    <string name="title_activity_lake">LakeActivity</string>
+    <string name="title_activity_recycle">RecycleActivity</string>
+    <string name="action_back">action_back</string>
+
+    <string name="about_label_text">Acerca de Reciclemos</string>
+    <string name="about_itcr_text">Instituto Tecnológico de Costa Rica</string>
+    <string name="about_department_text">Escuela de Ingeniería en Computación</string>
+    <string name="about_subject_text">Desarrollo de Aplicaciones Móviles</string>
+    <string name="about_authorsLabel_text">Autores:</string>
+    <string name="about_authors_text">
+        "José Daniel Chacón Bogarín (Desarrollador)\nGerardo Saborío Ortega (Desarrollador)\nRicardo Saborío (Diseñador)\nLizeth Gutierrez (Desarrollo Infantil)\nCarlos Villalobos (Desarrollador, Diseñador y Tester)\nAdriana Álvarez Figueroa (Profesora)"
+    </string>
+    <string name="about_descriptionLabel_text">Descripción:</string>
+    <string name="about_description_text">
+        "Esta aplicación tiene como objetivo enseñar de forma lúdica cómo se realiza a la clasificación de residuos. Está orientada a niños pero puede ser utilizada por adultos también. Al jugar, los niños adquieren el conocimiento y la pueden transmitir a sus padres, amigos y en general a la comunidad que los rodea. Esta aplicación enseña los productos que se pueden reciclar y los que no, enseña cómo clasificar y organizar la basura de forma que se pueda reciclar la mayor cantidad posible y así colaborar con el medio ambiente. En Costa Rica, existe la ley 8839 o "Ley para la Gestión Integral de Residuos", aprobada en 2010 como iniciativa para establecer las pautas necesarias y preventivas para el manejo de los residuos en el país. La ley plantea una serie de acciones para valorizar los residuos y que no sean tratados como basura. La clasificación establecida se encuentra basada en el plan de estrategia nacional de separación y valorazión de residuos (ENSRVR) de Costa Rica el cual rige desde 2016 hasta el 2021."
+    </string>
+
+    <string name="greenTitle_text">Residuos Orgánicos</string>
+    <string name="greenDesc_text">Las cáscaras de frutas, sobras de comida, cabello y uñas, pasto y hojas, es lo que usas para hacer la composta y se deposita en el contenedor de color verde.</string>
+    <string name="blueTitle_text">Plásticos y Tetrabrik</string>
+    <string name="blueDesc_text">Envases plástico como botellas de agua, de suavizante, de refrescos, etc... También envases de tetrabrik como leche, zumos, batidos, entre otros. Estos se depositarán juntos en el interior del contenedor azul.</string>
+    <string name="yellowTitle_text">Aluminio</string>
+    <string name="yellowDesc_text">Los envases metálicos como latas de conserva y botes de refresco se depositarán en el interior del contenedor amarillo.</string>
+    <string name="grayTitle_text">Papeles y Cartones</string>
+    <string name="grayDesc_text">Los papeles de libretas, revistas, periódicos y los cartones de cajas, embalajes, etc..., deben depositarse plegados en el contenedor de color gris para papel y cartón.</string>
+    <string name="blackTitle_text">Residuos Generales</string>
+    <string name="blackDesc_text">Las bolsas con basura, pañales, envases de pasta de dientes, pajillas, corchos, trapos, servilletas sucias, papel de fotografía,  cerámica y papel higiénico entre muchos otros son considerados residuos generales y deben depositarse en el contenedor de color negro.</string>
+    <string name="redTitle_text">Residuos Peligrosos</string>
+    <string name="redDesc_text">Los desechos hospitalarios, químicos, tóxicos, farmacéuticos e industriales, tales como insecticidas, baterías, aceites, jeringas, restos de pintura y aerosoles se consideran residuos peligrosos y deben ser depositados en el contenedor de color rojo.</string>
+    <string name="orangeTitle_text">Vidrios y Cristales</string>
+    <string name="orangeDesc_text">Las botellas de vidrio y los recipientes de cristal, sin tapones ni tapas, y sin líquido, se depositan dentro del contenedor naranja para vidrio.</string>
+    <string name="purpleTitle_text">Residuos Eléctricos y Electrónicos</string>
+    <string name="purpleDesc_text">Los celulares, cámaras fotográficas, computadoras y accesorios, electrodomésticos, calculadoras, cables y conectores, juegos electrónicos, unidades de almacenamiento externo, entre otros, deben depositarse en el contenedor de color púrpura.</string>
+
+
+    <string name="main_house_contentDescription">Casa</string>
+    <string name="main_recycle_contentDescription">Guía de reciclaje</string>
+    <string name="main_lake_contentDescription">Lago</string>
+    <string name="main_forest_contentDescription">Bosque</string>
+    <string name="main_about_contentDescription">Acerca de Reciclemos</string>
+</resources>

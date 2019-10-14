@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="itcr.reciclemos.ForestActivity"
+    android:background="@drawable/bg_forest"
+    android:id="@+id/forest_layout" >
+
+    <include layout="@layout/content_forest" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        app:layout_anchorGravity="bottom|end"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/margin15_size" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/green_trashCan_img"
+        android:contentDescription="@string/greenTitle_text"
+        android:background="@drawable/trashcan_green" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blue_trashCan_img"
+        android:contentDescription="@string/blueTitle_text"
+        android:background="@drawable/trashcan_blue" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yellow_trashCan_img"
+        android:contentDescription="@string/yellowTitle_text"
+        android:background="@drawable/trashcan_yellow" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gray_trashCan_img"
+        android:contentDescription="@string/grayTitle_text"
+        android:background="@drawable/trashcan_gray" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/black_trashCan_img"
+        android:contentDescription="@string/blackTitle_text"
+        android:background="@drawable/trashcan_black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/red_trashCan_img"
+        android:contentDescription="@string/redTitle_text"
+        android:background="@drawable/trashcan_red" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orange_trashCan_img"
+        android:contentDescription="@string/orangeTitle_text"
+        android:background="@drawable/trashcan_orange" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/purple_trashCan_img"
+        android:contentDescription="@string/purpleTitle_text"
+        android:background="@drawable/trashcan_purple" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:progressDrawable="@drawable/custom_progressbar"
+        android:progress="100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin50_size"
+        android:maxHeight="@dimen/progressbar_height"
+        android:minHeight="@dimen/progressbar_height"
+        android:maxWidth="@dimen/progressbar_width"
+        android:minWidth="@dimen/progressbar_width" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score_textView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="@dimen/about_subsubtitle_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/margin15_size" />
+</RelativeLayout>

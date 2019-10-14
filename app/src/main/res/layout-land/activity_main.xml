@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="itcr.reciclemos.MainActivity"
+    android:background="@drawable/bg_main">
+
+    <!--
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+    -->
+
+    <include layout="@layout/content_main" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycle_btn"
+        android:onClick="showRecycle"
+        android:contentDescription="@string/main_recycle_contentDescription"
+        android:background="@drawable/btn_main_trash" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/house_btn"
+        android:onClick="showHouse"
+        android:contentDescription="@string/main_house_contentDescription"
+        android:background="@drawable/btn_main_house" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lake_btn"
+        android:onClick="showLake"
+        android:contentDescription="@string/main_lake_contentDescription"
+        android:background="@drawable/btn_main_lake" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forest_btn"
+        android:onClick="showForest"
+        android:contentDescription="@string/main_forest_contentDescription"
+        android:background="@drawable/btn_main_forest" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_btn"
+        android:onClick="showAbout"
+        android:contentDescription="@string/main_about_contentDescription"
+        android:background="@drawable/btn_main_cloud" />
+</RelativeLayout>

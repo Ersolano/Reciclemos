@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="itcr.reciclemos.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="@dimen/margin150_size"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin210_size"
+            android:layout_marginBottom="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin15_size"
+            android:text="@string/about_label_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_title_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_itcr_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subtitle_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_department_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subsubtitle_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_subject_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subsubtitle_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_authorsLabel_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subsubtitle_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_authors_text"
+            android:textSize="@dimen/about_text_size" />
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_helperLabel_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subsubtitle_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_helper_text"
+            android:textSize="@dimen/about_text_size" />-->
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_professorLabel_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subsubtitle_size" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_professor_text"
+            android:textSize="@dimen/about_text_size" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:text="@string/about_descriptionLabel_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/about_subsubtitle_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin15_size"
+            android:layout_marginLeft="@dimen/margin50_size"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="@dimen/margin5_size"
+            android:layout_weight="0.32"
+            android:text="@string/about_description_text"
+            android:textSize="@dimen/about_text_size" />
+    </LinearLayout>
+</ScrollView>

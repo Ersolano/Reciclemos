@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358325603728",
+    "firebase_url": "https://reciclemos-9887d.firebaseio.com",
+    "project_id": "reciclemos-9887d",
+    "storage_bucket": "reciclemos-9887d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358325603728:android:ff30e297bf294d23",
+        "android_client_info": {
+          "package_name": "itcr.reciclemos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358325603728-kfp1tnqfig45sil2031mveue6klvqgjh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "itcr.reciclemos",
+            "certificate_hash": "77887c8a03d08c77dc07b148f9eed3d85c455749"
+          }
+        },
+        {
+          "client_id": "358325603728-s2qnmgmvs1t9ase3ii4nnfsi4k3s76ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB-WUd6FQ6GYQU8d54QuQ0MwNzijI2Ffw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358325603728-s2qnmgmvs1t9ase3ii4nnfsi4k3s76ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
